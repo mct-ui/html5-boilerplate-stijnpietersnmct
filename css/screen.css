@@ -90,19 +90,23 @@ figcaption {
 }
 
 hr {
-
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+    margin: 0 0 24px;
 }
 
 a {
-
+    color: royalblue;
+    transition: all .1s ease-in-out;
 }
 
 a:hover,
 a:focus {
-
+    color: crimson;
 }
 
 a:visited,
 a:active {
-
+    color: blueviolet;
 }
