@@ -31,17 +31,23 @@ h1 {
 }
 
 h2 {
-
+    font-size: 32px;
+    line-height: 32px;
+    margin: 0 0 24px;
 }
 
 h3 {
-
+    font-size:18px;
+    line-height: 24px;
+    margin: 0 0 24px;
 }
 
 h4,
 h5,
 h6 {
-
+    font-size:16px;
+    line-height: 24px;
+    margin: 0 0 24px;
 }
 
 p,
@@ -51,13 +57,17 @@ dl,
 table,
 address,
 figure {
-
+    margin: 0 0 24px;
 }
 
 ul,
 ol,
 blockquote {
-
+    font-style: italic;
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    font-family: "Times New Roman", serif;
 }
 
 li ul,
@@ -65,12 +75,16 @@ li ol{
 
 }
 
-blockquote {
-
+blockquote * {
+    line-height: inherit;
+    font-size: inherit;
 }
 
 figcaption {
-
+    font-size: 12px;
+    line-height: 16px;
+    padding-top:8px;
+    color:grey;
 }
 
 hr {
